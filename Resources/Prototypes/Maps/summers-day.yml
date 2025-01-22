@@ -1,0 +1,14 @@
+- type: gameMap
+  id: SummersDay
+  mapName: SummersDay
+  mapPath: /Maps/L5/summers-day.yml
+  minPlayers: 0
+  stations:
+    Empty:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Summer's Day"
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
