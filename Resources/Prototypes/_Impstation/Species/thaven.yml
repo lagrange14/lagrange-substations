@@ -16,7 +16,7 @@
   - Female
   - Unsexed
   baseScale: "1, 1.05" # DeltaV - make sure Thaven are still scaled w/ CD records
-  maxHeight: 1.05 # DeltaV
+  #maxHeight: 1.05 # L5 - all heights welcome
 
 - type: speciesBaseSprites
   id: MobThavenSprites
