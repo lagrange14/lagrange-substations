@@ -12,7 +12,7 @@
   lastNames: NamesOniLocation
   naming: LastNoFirst
   baseScale: "1.2, 1.2"
-  maxHeight: 1.05
+  #maxHeight: 1.05 # L5 - all heights welcomes
 
 - type: markingPoints
   id: MobOniMarkingLimits

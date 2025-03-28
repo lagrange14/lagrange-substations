@@ -102,7 +102,7 @@ public sealed partial class SpeciesPrototype : IPrototype
     ///     Characters younger than this are too young to be hired by Nanotrasen.
     /// </summary>
     [DataField]
-    public int MinAge = 18;
+    public int MinAge = 1; // L5 - littles welcome
 
     /// <summary>
     ///     Characters younger than this appear young.
@@ -121,7 +121,7 @@ public sealed partial class SpeciesPrototype : IPrototype
     ///     although imagine if ghosts could age people WYCI...
     /// </summary>
     [DataField]
-    public int MaxAge = 120;
+    public int MaxAge = 500; // L5 - suport cladists
 
     // Begin DV - CD Character Records shouldn't nuke species heights
     /// <summary>
@@ -136,13 +136,13 @@ public sealed partial class SpeciesPrototype : IPrototype
     /// The minimum height for this species
     /// </summary>
     [DataField("minHeight")]
-    public float MinHeight = 0.9f; // DeltaV - less trolling with the heights
+    public float MinHeight = 0.5f; // L5 - allow greater height differences
 
     /// <summary>
     /// The maximum height for this species
     /// </summary>
     [DataField("maxHeight")]
-    public float MaxHeight = 1.1f; // DeltaV - less trolling with the heights
+    public float MaxHeight = 1.5f; // L5 - allow greater height differences
 
     /// <summary>
     /// The default height for this species
